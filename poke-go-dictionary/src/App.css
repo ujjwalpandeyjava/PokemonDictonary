@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Hind+Siliguri&display=swap");
+
+/*
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.primary-icon {
+  height: 30px;
+  width: auto;
+}
+.navbar {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  min-height: 30px;
+  align-items: center;
+  font-size: 16px;
+  padding: 8px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover {
+  color: aqua;
+}
+
+.hamParent {
+  position: absolute;
+  background: gray;
+  height: 25px;
+  width: 25px;
+  top: 14px;
+  right: 17px;
+  display: none;
+}
+.hamParent > .hamLine {
+  margin: 4px auto;
+  height: 3px;
+  width: 20px;
+  background-color: white;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+@media (max-width: 480px) {
+  .primary-icon {
+    height: 38px;
+    width: auto;
+  }
+  .hamParent {
+    display: inline;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-list {
+    display: none;
+    /* display: block; */
+    margin-top: 6px;
+  }
+  .nav-list .list-item {
+    display: block;
+    border-top: 1px solid #c2c2c2;
+    width: 100vw;
+    text-align: center;
+  }
+  .active {
+    display: block;
+  }
+}
+.mainBody {
+  min-height: 35vh;
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+}

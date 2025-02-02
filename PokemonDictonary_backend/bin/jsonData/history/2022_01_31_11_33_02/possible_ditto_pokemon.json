@@ -1,0 +1,38 @@
+{
+  "92" : {
+    "id" : 92,
+    "name" : "Gastly"
+  },
+  "96" : {
+    "id" : 96,
+    "name" : "Drowzee"
+  },
+  "216" : {
+    "id" : 216,
+    "name" : "Teddiursa"
+  },
+  "223" : {
+    "id" : 223,
+    "name" : "Remoraid"
+  },
+  "316" : {
+    "id" : 316,
+    "name" : "Gulpin"
+  },
+  "322" : {
+    "id" : 322,
+    "name" : "Numel"
+  },
+  "434" : {
+    "id" : 434,
+    "name" : "Stunky"
+  },
+  "557" : {
+    "id" : 557,
+    "name" : "Dwebble"
+  },
+  "590" : {
+    "id" : 590,
+    "name" : "Foongus"
+  }
+}
